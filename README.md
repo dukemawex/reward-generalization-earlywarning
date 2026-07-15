@@ -27,3 +27,8 @@ python early_warning.py    # early-warning test
 
 ## Reference
 OpenAI (2026). *Where the Goblins Came From.* openai.com/index/where-the-goblins-came-from/
+
+---
+
+## Implemented next step: component-projection tracking
+See `next_spd_tracking.py`. Tracking the reward-linked component's projection (vs raw activations) still yields no lead time over the behavioral tic at toy scale — consistent with the original negative result; needs a deeper model.
